@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sound rings radiating from the center click -->
+    <path android:strokeColor="#552FB8E8" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M54,54 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+    <path android:strokeColor="#332FB8E8" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M54,54 m-39,0 a39,39 0 1,0 78,0 a39,39 0 1,0 -78,0" />
+
+    <!-- UP node (cyan) -->
+    <path android:pathData="M54,25 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="51" android:centerY="21" android:gradientRadius="16">
+                <item android:offset="0.0" android:color="#FFBFF4FF" />
+                <item android:offset="0.6" android:color="#FF30DBF0" />
+                <item android:offset="1.0" android:color="#FF0E5C70" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M54,19 l6,10 l-12,0 z" />
+
+    <!-- DOWN node (magenta) -->
+    <path android:pathData="M54,83 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="51" android:centerY="79" android:gradientRadius="16">
+                <item android:offset="0.0" android:color="#FFFFC8F2" />
+                <item android:offset="0.6" android:color="#FFFF46D7" />
+                <item android:offset="1.0" android:color="#FF7A126A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M54,89 l6,-10 l-12,0 z" />
+
+    <!-- LEFT node (green) -->
+    <path android:pathData="M25,54 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="22" android:centerY="50" android:gradientRadius="16">
+                <item android:offset="0.0" android:color="#FFC8FFD2" />
+                <item android:offset="0.6" android:color="#FF46E660" />
+                <item android:offset="1.0" android:color="#FF12662A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M19,54 l10,-6 l0,12 z" />
+
+    <!-- RIGHT node (amber) -->
+    <path android:pathData="M83,54 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="80" android:centerY="50" android:gradientRadius="16">
+                <item android:offset="0.0" android:color="#FFFFF3C0" />
+                <item android:offset="0.6" android:color="#FFFFDE30" />
+                <item android:offset="1.0" android:color="#FF8F6E00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M89,54 l-10,-6 l0,12 z" />
+
+    <!-- Center TAP node (violet) -->
+    <path android:pathData="M54,54 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="50" android:centerY="50" android:gradientRadius="18">
+                <item android:offset="0.0" android:color="#FFE4D8FF" />
+                <item android:offset="0.6" android:color="#FFAA8CFF" />
+                <item android:offset="1.0" android:color="#FF4A2E8E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#E6FFFFFF" android:pathData="M54,47 l7,7 l-7,7 l-7,-7 z" />
+</vector>
