@@ -25,6 +25,19 @@ direction feels backwards on your hardware, flip it in settings (**Flip
 Vertical / Flip Horizontal**) — cheap insurance for the temple pad's
 natural-mode axis quirk.
 
+### A note on the controls
+
+The RayNeo X3 Pro's temple pad is a small trackpad, and swipe/click recognition
+on it is **not inherently perfect** — a swipe can occasionally register as the
+wrong direction, land as a stray click, or get missed entirely. That's the
+hardware, not your memory. **TapMemory is designed so that's OK.** The goal is
+to *practice audio-visual memory* — training your ear and eye to hold a growing
+pattern — and that practice is valuable even when an input slips and costs you a
+run. Treat a miscontrol like a dropped note in music practice: shrug, restart,
+keep training. Tuning that helps: raise **Swipe Sensitivity** or set **Watch
+Speed** to Relaxed/Slow in settings, and lean on **Safe Tap** so a forming
+double-tap never fires a stray token.
+
 ## The five tokens
 
 The whole game is five symbols laid out as a compass cross — the natural shape
