@@ -205,6 +205,7 @@ class GameEngine(val store: SettingsStore, val host: GameHost) {
     }
 
     private fun levelClear() {
+        if (bestRun > store.bestRun(levelIdx)) store.setBestRun(levelIdx, bestRun)
         clearStars = starsFor(bestRun, level.targetLen)
         if (clearStars > store.bestStars(levelIdx)) store.setBestStars(levelIdx, clearStars)
         if (levelIdx < LEVELS.size) store.unlockedLevel = max(store.unlockedLevel, levelIdx + 1)
